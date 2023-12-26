@@ -1,0 +1,7 @@
+*.component.css
+*.component.ts
+*.module.ts
+*.directive.ts
+*.app.json
+*.spec.json
+
