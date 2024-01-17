@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Project1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Project1(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="product" value="mac"/>
+    <parameter name="emailid" value="seleniumdemo@gmail.com"/>
+    <classes>
+      <class name="com.ninjas.qa.tests.TestRegisterPage">
+        <methods>
+          <include name="register_user"/>
+          <include name="generateTestStatus"/>
+          <include name="generateReports"/>
+          <include name="InitializeExtentReport"/>
+          <include name="getNameMethod"/>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.ninjas.qa.tests.TestRegisterPage -->
+    </classes>
+  </test> <!-- Project1(failed) -->
+</suite> <!-- Failed suite [Project1] -->

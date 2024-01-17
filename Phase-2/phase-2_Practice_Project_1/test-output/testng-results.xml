@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="34" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-17T19:40:51 IST" name="Project1" finished-at="2024-01-17T19:41:30 IST" duration-ms="39095">
+    <groups>
+    </groups>
+    <test started-at="2024-01-17T19:40:51 IST" name="Project1" finished-at="2024-01-17T19:41:30 IST" duration-ms="39095">
+      <class name="com.ninjas.qa.tests.TestRegisterPage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:08 IST" name="openBrowser" finished-at="2024-01-17T19:41:10 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:11 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:13 IST" duration-ms="2068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:13 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:15 IST" duration-ms="1997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@124]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.2345679E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@124]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:13 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:15 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:17 IST" duration-ms="2049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@125]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456791E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@125]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:15 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:17 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:19 IST" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@126]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456792E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@126]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:17 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:19 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:21 IST" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@127]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456793E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@127]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:19 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:21 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:23 IST" duration-ms="2239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@128]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456794E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@128]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:21 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:23 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:23 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:26 IST" duration-ms="2181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@129]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456795E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@129]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@129]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:26 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:28 IST" duration-ms="2158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@130]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456796E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@130]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@130]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:26 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:28 IST" name="register_user" data-provider="testdata" finished-at="2024-01-17T19:41:30 IST" duration-ms="2134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@131]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456797E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin@131]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin@131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:28 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:30 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=register_user status=SUCCESS method=TestRegisterPage.register_user(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.ninjas.qa.tests.TestRegisterPage@28dcca0c]" started-at="2024-01-17T19:41:30 IST" name="CloseBrowser" finished-at="2024-01-17T19:41:30 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.ninjas.qa.tests.TestRegisterPage -->
+      <class name="com.ninjas.qa.tests.TestProductPage">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjas.qa.tests.TestProductPage@25be7b63]" started-at="2024-01-17T19:41:02 IST" name="OpenApp" finished-at="2024-01-17T19:41:03 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="addproducttoCartTest()[pri:49, instance:com.ninjas.qa.tests.TestProductPage@25be7b63]" started-at="2024-01-17T19:41:03 IST" name="addproducttoCartTest" finished-at="2024-01-17T19:41:08 IST" duration-ms="4294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproducttoCartTest -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestProductPage@25be7b63]" started-at="2024-01-17T19:41:08 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestProductPage.addproducttoCartTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addproducttoCartTest status=SUCCESS method=TestProductPage.addproducttoCartTest()[pri:49, instance:com.ninjas.qa.tests.TestProductPage@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+      </class> <!-- com.ninjas.qa.tests.TestProductPage -->
+      <class name="com.ninjas.qa.tests.TestHomePage">
+        <test-method is-config="true" signature="InitializeExtentReport()[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:51 IST" name="InitializeExtentReport" finished-at="2024-01-17T19:40:51 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeExtentReport -->
+        <test-method is-config="true" signature="getNameMethod(org.testng.ITestContext)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:51 IST" name="getNameMethod" finished-at="2024-01-17T19:40:51 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cf8a235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNameMethod -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:51 IST" name="openApp" finished-at="2024-01-17T19:40:53 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_homepagegettitle()[pri:49, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:53 IST" name="test_homepagegettitle" finished-at="2024-01-17T19:40:53 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_homepagegettitle -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:53 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestHomePage.test_homepagegettitle()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_homepagegettitle status=SUCCESS method=TestHomePage.test_homepagegettitle()[pri:49, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="test_ClickonMyAccount()[pri:50, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:53 IST" name="test_ClickonMyAccount" finished-at="2024-01-17T19:40:53 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ClickonMyAccount -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:53 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestHomePage.test_ClickonMyAccount()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_ClickonMyAccount status=SUCCESS method=TestHomePage.test_ClickonMyAccount()[pri:50, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="test_ClickonLogin()[pri:51, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:53 IST" name="test_ClickonLogin" finished-at="2024-01-17T19:40:54 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ClickonLogin -->
+        <test-method signature="test_ClickonRegister()[pri:52, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:54 IST" name="test_ClickonRegister" finished-at="2024-01-17T19:40:55 IST" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ClickonRegister -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:54 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestHomePage.test_ClickonLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_ClickonLogin status=SUCCESS method=TestHomePage.test_ClickonLogin()[pri:51, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:55 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestHomePage.test_ClickonRegister() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_ClickonRegister status=SUCCESS method=TestHomePage.test_ClickonRegister()[pri:52, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="test_ClickonWishlist()[pri:53, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:55 IST" name="test_ClickonWishlist" finished-at="2024-01-17T19:40:55 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ClickonWishlist -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:55 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestHomePage.test_ClickonWishlist()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_ClickonWishlist status=SUCCESS method=TestHomePage.test_ClickonWishlist()[pri:53, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="test_ClickonShoppingcart()[pri:54, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:55 IST" name="test_ClickonShoppingcart" finished-at="2024-01-17T19:40:56 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ClickonShoppingcart -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:40:56 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestHomePage.test_ClickonShoppingcart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_ClickonShoppingcart status=SUCCESS method=TestHomePage.test_ClickonShoppingcart()[pri:54, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:41:30 IST" name="closeBrowser" finished-at="2024-01-17T19:41:30 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.ninjas.qa.tests.TestHomePage@61c4eee0]" started-at="2024-01-17T19:41:30 IST" name="generateReports" finished-at="2024-01-17T19:41:31 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.ninjas.qa.tests.TestHomePage -->
+      <class name="com.ninjas.qa.tests.TestSearchPage">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjas.qa.tests.TestSearchPage@723ca036]" started-at="2024-01-17T19:40:59 IST" name="OpenApp" finished-at="2024-01-17T19:41:01 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="test_searchProduct(java.lang.String)[pri:49, instance:com.ninjas.qa.tests.TestSearchPage@723ca036]" started-at="2024-01-17T19:41:01 IST" name="test_searchProduct" finished-at="2024-01-17T19:41:02 IST" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_searchProduct -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestSearchPage@723ca036]" started-at="2024-01-17T19:41:02 IST" name="generateTestStatus" finished-at="2024-01-17T19:41:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestSearchPage.test_searchProduct(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_searchProduct status=SUCCESS method=TestSearchPage.test_searchProduct(java.lang.String)[pri:49, instance:com.ninjas.qa.tests.TestSearchPage@723ca036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+      </class> <!-- com.ninjas.qa.tests.TestSearchPage -->
+      <class name="com.ninjas.qa.tests.TestLoginPage">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.ninjas.qa.tests.TestLoginPage@304bb45b]" started-at="2024-01-17T19:40:56 IST" name="openApp" finished-at="2024-01-17T19:40:57 IST" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_login(java.lang.String,java.lang.String)[pri:49, instance:com.ninjas.qa.tests.TestLoginPage@304bb45b]" started-at="2024-01-17T19:40:57 IST" name="test_login" finished-at="2024-01-17T19:40:59 IST" duration-ms="1914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumdemo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjas.qa.tests.TestLoginPage@304bb45b]" started-at="2024-01-17T19:40:59 IST" name="generateTestStatus" finished-at="2024-01-17T19:40:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjas.qa.tests.TestLoginPage.test_login(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=TestLoginPage.test_login(java.lang.String,java.lang.String)[pri:49, instance:com.ninjas.qa.tests.TestLoginPage@304bb45b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+      </class> <!-- com.ninjas.qa.tests.TestLoginPage -->
+    </test> <!-- Project1 -->
+  </suite> <!-- Project1 -->
+</testng-results>

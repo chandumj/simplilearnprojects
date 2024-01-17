@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Project1" verbose="1">
+	
+  <test name="Project1">
+	  <parameter name="emailid" value="seleniumdemo@gmail.com"></parameter>  
+      <parameter name="password" value="123456"></parameter>  
+      <parameter name="product" value="mac"></parameter> 
+    <classes >
+       <class name="com.ninjas.qa.tests.TestHomePage"/>
+       <class name="com.ninjas.qa.tests.TestLoginPage"/>
+       <class name="com.ninjas.qa.tests.TestSearchPage"/>
+       <class name="com.ninjas.qa.tests.TestProductPage"/>
+       <class name="com.ninjas.qa.tests.TestRegisterPage"/>
+    </classes>
+  </test>
+  </suite>
