@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Phase2EndProjectPart2" verbose="1">
+	
+  <test name="starhealth001">
+	  
+	 <parameter name="Name" value="admin"></parameter>  
+   <parameter name="Mobile" value="9090808090"></parameter>  
+    <parameter name="pin" value="500056"></parameter>  
+    <classes >
+       <class name="starHealthScenario2.StarHealthTest"/>
+    </classes>
+  </test>
+  
+   <test name="starhealth002">
+    <classes >
+       <class name="starHealthScenario2.StarHealthLinkTest"/>
+      
+    </classes>
+  </test>
+  
+  
+</suite>
