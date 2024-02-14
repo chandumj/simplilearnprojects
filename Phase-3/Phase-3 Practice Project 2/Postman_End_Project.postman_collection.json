@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "1cda5c4b-bdaa-487d-96cc-24e7fc4fb36c",
+		"name": "Postman End Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27184939"
+	},
+	"item": [
+		{
+			"name": "OpenWaether Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Test to check Status code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Speed of execution\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"validate response message\", function (){\r",
+							" pm.expect(pm.response.status).to.be.oneOf([\"OK\",\"Created\"]);\r",
+							"});\r",
+							"pm.test(\"validate response Body\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.name).to.eql(\"London\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}?q={{CityNames}}&appid={{apiid}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{CityNames}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{apiid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
