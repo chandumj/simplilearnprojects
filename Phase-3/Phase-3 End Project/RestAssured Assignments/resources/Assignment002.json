@@ -1,0 +1,15 @@
+{
+"id": 9223372016900013000, 
+"category": {
+"id": 20021,
+"name": "string"},
+"name": "doggie",
+"photoUrls": [
+"string"
+], "tags": [
+{
+"id": 0,
+"name": "string"
+}], 
+"status": "available_QA" 
+}
