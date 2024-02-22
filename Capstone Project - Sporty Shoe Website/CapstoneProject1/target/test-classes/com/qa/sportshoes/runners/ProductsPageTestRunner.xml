@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CapstoneProject" verbose="1">
+	
+  <test name="ProductsPageTest">  
+    <classes >
+       <class name="com.qa.sportyshoes.Tests.ProductsPageTest"/>
+    </classes>
+  </test>
+  
+</suite>
